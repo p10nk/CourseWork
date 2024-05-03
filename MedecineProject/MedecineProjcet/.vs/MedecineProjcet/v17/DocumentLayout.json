@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\writeAndReadPatientDataFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedecineProjcet\\writeAndReadPatientDataFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\writeAndReadPatientDataFile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedecineProjcet\\writeAndReadPatientDataFile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\writeAndReadCabinetDataFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedecineProjcet\\writeAndReadCabinetDataFile.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\writeAndReadCabinetDataFile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedecineProjcet\\writeAndReadCabinetDataFile.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\inpPatient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedecineProjcet\\inpPatient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\MedecineProjcet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedecineProjcet\\MedecineProjcet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Cabinet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedecineProjcet\\Cabinet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Patient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedecineProjcet\\Patient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\patients.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedecineProjcet\\patients.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\inpPatient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedecineProjcet\\inpPatient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Patient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedecineProjcet\\Patient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Cabinet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedecineProjcet\\Cabinet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Date.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MedecineProjcet\\Date.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Patient.h",
+              "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Patient.h",
+              "RelativeDocumentMoniker": "MedecineProjcet\\Patient.h",
+              "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Patient.h",
+              "RelativeToolTip": "MedecineProjcet\\Patient.h",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-02T21:39:41.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "patients.txt",
+              "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\patients.txt",
+              "RelativeDocumentMoniker": "MedecineProjcet\\patients.txt",
+              "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\patients.txt",
+              "RelativeToolTip": "MedecineProjcet\\patients.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-02T21:39:40.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "inpPatient.cpp",
+              "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\inpPatient.cpp",
+              "RelativeDocumentMoniker": "MedecineProjcet\\inpPatient.cpp",
+              "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\inpPatient.cpp",
+              "RelativeToolTip": "MedecineProjcet\\inpPatient.cpp",
+              "ViewState": "AQIAANoAAAAAAAAAAAAIwPQAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-02T20:59:42.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "writeAndReadCabinetDataFile.h",
+              "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\writeAndReadCabinetDataFile.h",
+              "RelativeDocumentMoniker": "MedecineProjcet\\writeAndReadCabinetDataFile.h",
+              "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\writeAndReadCabinetDataFile.h",
+              "RelativeToolTip": "MedecineProjcet\\writeAndReadCabinetDataFile.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-01T20:33:57.974Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "writeAndReadPatientDataFile.h",
+              "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\writeAndReadPatientDataFile.h",
+              "RelativeDocumentMoniker": "MedecineProjcet\\writeAndReadPatientDataFile.h",
+              "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\writeAndReadPatientDataFile.h",
+              "RelativeToolTip": "MedecineProjcet\\writeAndReadPatientDataFile.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-01T20:08:09.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "inpPatient.h",
+              "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\inpPatient.h",
+              "RelativeDocumentMoniker": "MedecineProjcet\\inpPatient.h",
+              "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\inpPatient.h",
+              "RelativeToolTip": "MedecineProjcet\\inpPatient.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-01T20:08:00.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MedecineProjcet.cpp",
+              "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\MedecineProjcet.cpp",
+              "RelativeDocumentMoniker": "MedecineProjcet\\MedecineProjcet.cpp",
+              "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\MedecineProjcet.cpp",
+              "RelativeToolTip": "MedecineProjcet\\MedecineProjcet.cpp",
+              "ViewState": "AQIAAEgAAAAAAAAAAAAAAFUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T19:04:29.952Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Cabinet.cpp",
+              "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Cabinet.cpp",
+              "RelativeDocumentMoniker": "MedecineProjcet\\Cabinet.cpp",
+              "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Cabinet.cpp",
+              "RelativeToolTip": "MedecineProjcet\\Cabinet.cpp",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAIwJgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-22T21:03:19.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "writeAndReadCabinetDataFile.cpp",
+              "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\writeAndReadCabinetDataFile.cpp",
+              "RelativeDocumentMoniker": "MedecineProjcet\\writeAndReadCabinetDataFile.cpp",
+              "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\writeAndReadCabinetDataFile.cpp",
+              "RelativeToolTip": "MedecineProjcet\\writeAndReadCabinetDataFile.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-01T20:34:08.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "writeAndReadPatientDataFile.cpp",
+              "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\writeAndReadPatientDataFile.cpp",
+              "RelativeDocumentMoniker": "MedecineProjcet\\writeAndReadPatientDataFile.cpp",
+              "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\writeAndReadPatientDataFile.cpp",
+              "RelativeToolTip": "MedecineProjcet\\writeAndReadPatientDataFile.cpp",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAABkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-29T08:13:46.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Cabinet.h",
+              "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Cabinet.h",
+              "RelativeDocumentMoniker": "MedecineProjcet\\Cabinet.h",
+              "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Cabinet.h",
+              "RelativeToolTip": "MedecineProjcet\\Cabinet.h",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAC8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-22T09:25:03.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Patient.cpp",
+              "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Patient.cpp",
+              "RelativeDocumentMoniker": "MedecineProjcet\\Patient.cpp",
+              "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Patient.cpp",
+              "RelativeToolTip": "MedecineProjcet\\Patient.cpp",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAIwKMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-02T21:05:42.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Date.cpp",
+              "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Date.cpp",
+              "RelativeDocumentMoniker": "MedecineProjcet\\Date.cpp",
+              "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044F c\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Date.cpp",
+              "RelativeToolTip": "MedecineProjcet\\Date.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-04-18T19:19:55.09Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

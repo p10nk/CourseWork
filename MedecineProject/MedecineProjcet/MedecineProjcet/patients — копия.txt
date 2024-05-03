@@ -1,0 +1,19 @@
+
+------------------
+fname: SDF
+lname: SDF
+surname: ASD
+dateBirth: 1.2.2001.0.0
+cabForZapisi: 1
+dateZapis: 1.5.2024.7.0
+IDDeseases: 
+IDServices: 
+------------------
+fname: dfd
+lname: asdf
+surname: werf
+dateBirth: 1.11.2018.0.0
+cabForZapisi: 1
+dateZapis: 1.5.2024.8.0
+IDDeseases: 
+IDServices: 
