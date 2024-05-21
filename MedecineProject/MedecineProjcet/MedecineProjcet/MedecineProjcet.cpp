@@ -10,7 +10,9 @@
 #include "writeAndReadPatientDataFile.h"
 #include "Cabinet.h"
 #include "writeAndReadCabinetDataFile.h"
-
+#include <Windows.h>
+#undef min
+#undef max
 using namespace std;
 
 void printGreetingAndInfoCommands() {
@@ -27,58 +29,91 @@ void printGreetingAndInfoCommands() {
     cout << ":                                                :" << endl;
     cout << ".................................................." << endl;
 }
-
-
 void RunMedecineService() {
 
     string command; 
     do {
-        cout << ":>> "; getline(cin, command); //enter com
+       
+        cout << ":>> "; cin >> command; //enter com
         if (command == "showc") {
-            std::cout << "1. Терапевт\n";
-            std::cout << "2. Хирург\n";
-            std::cout << "3. Кардиолог\n";
-            std::cout << "4. Гастроэнтеролог\n";
-            std::cout << "5. Офтальмолог\n";
-            std::cout << "6. Оториноларинголог\n";
-            std::cout << "7. Дерматолог\n";
-            std::cout << "8. Невролог\n";
-            std::cout << "9. Психиатр\n";
-            std::cout << "10. Стоматолог\n";
-            std::vector<Cabinet> cabinets;
+            cout << "1. Терапевт"<<endl;
+            cout << "2. Хирург"<<endl;
+            cout << "3. Кардиолог"<<endl;
+            cout << "4. Гастроэнтеролог"<<endl;
+            cout << "5. Офтальмолог"<<endl;
+            cout << "6. Оториноларинголог"<<endl;
+            cout << "7. Дерматолог"<<endl;
+            cout << "8. Невролог"<<endl;
+            cout << "9. Психиатр"<<endl;
+            cout << "10. Стоматолог"<<endl;
+            vector<Cabinet> cabinets;
             if (!readCabinetsFromFile(cabinets)) {
-                cout << "\nНе удалось прочитать кабинета, попробуйте ещё раз.";
+                cout << endl<<"Не удалось прочитать кабинета, попробуйте ещё раз.";
             }
             else {
-                int num; std::cout << "Введите номер кабинета: "; std::cin >> num; std::cin.ignore();
-                if (std::cin.fail()) {
-                    std::cin.clear(); // очистить флаг ошибки
-                    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n'); // игнорировать оставшийся ввод
-                    std::cout << "Введено некорректное значение. Пожалуйста, введите число.\n";
+                int num; cout << "Введите номер кабинета: "; cin >> num; cin.ignore();
+                if (cin.fail()) {
+                    cin.clear(); // очистить флаг ошибки
+                    cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                   
+                    cout << "Введено некорректное значение. Пожалуйста, введите число." <<endl;
                 }
                 else if (num > 0 && num < 11) {
                     cabinets[num - 1].printCabinet();
                 }
                 else {
-                    std::cout << "Такого кабинета нет, попробуйте снова.\n";
+                    cout << "Такого кабинета нет, попробуйте снова." <<endl;
                 }
             }
         }
         if (command == "takp") {
             if (takePatient()) {
-                std::cout << "Приём завершен.\n";
+                cout << "Приём завершен." <<endl;
+            }
+            else {
+                cout << "Попробуйте ещё раз." << endl;
             }
         }
         if (command == "shallp") {    //add comparing command 
             vector<Patient> myPatients;
             if (readPatientsFromFile(myPatients) == true) {
-                for (auto patient : myPatients) {
-                    patient.printPatient();
-                    cout << "\n------------------" << endl;
+                if (myPatients.size() == 0) {
+                    cout<<"Список пуст." << endl;
+                }
+                else {
+                    int currentPage = 0;  int totalPages = (myPatients.size() + 4) / 5;
+                    while (true) {
+                        for (int i = currentPage * 5; i < (currentPage + 1) * 5 && i < myPatients.size(); ++i) {
+                            myPatients[i].printPatient();
+                            cout << endl<<"------------------" << endl;
+                        }
+                        cout << endl;
+                        cout << "Страница " << (currentPage + 1) << " из " << totalPages << endl;
+                        cout << "Y - смотреть следующую страницу: ";
+                        char choice;
+                        cin >> choice;
+                        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+                        if (choice == 'y' || choice == 'Y') {
+                            currentPage++;
+                            if (currentPage * 5 >= myPatients.size()) {
+                                cout << "Это была последняя страница." <<endl;
+                                break;
+                            }
+                        }
+                        else {
+                            cout << "Просмотр окончен. "<<endl;
+                            break;
+                        }
+                    }
+                    /*for (auto patient : myPatients) {
+                        patient.printPatient();
+                        cout << endl<<"------------------" << endl;
+                    }*/
+
                 }
             }
             else {
-                cout << "\nНе удалось прочитать пациентов, попробуйте ещё раз." << endl;
+                cout << endl<<"Не удалось прочитать пациентов, попробуйте ещё раз." << endl;
             }
         }
         if (command == "addp") {    //add comparing command &&
@@ -86,19 +121,21 @@ void RunMedecineService() {
             bool res = addPatient(myPatient);
             if (res == true && writePatientInFile(myPatient)) {
                 //myPatient.printPatient();
-                cout << "\nЗапись прошла успешна." << endl;
+                cout << "Запись прошла успешна." << endl;
             }
             else {
-                cout << "\nНе удалось записать пациента в бд, попробуйте ещё раз." << endl;
+                cout << "Попробуйте ещё раз." << endl;
             }
         }
         if (command == "delp") {
-            std::vector<Patient> patients;
+            vector<Patient> patients;
             if (readPatientsFromFile(patients)) {
-                dellPatient(patients);
+                if (!dellPatient(patients)) {
+                    cout << "Попробуйте ещё раз." <<endl;
+                }
             }
             else {
-                std::cout << "Не удалось очистить запись, попробуйте снова.";
+                std::cout << "Не удалось считать файл. Попробуйте снова." <<endl;
             }
         }
         
@@ -112,11 +149,11 @@ void RunMedecineService() {
         }
     } while (command != "exit");
 }
-
-
 int main()
 {
     setlocale(LC_ALL, "Ru");
+    SetConsoleCP(1251); // Console input encoded in 1251
+    SetConsoleOutputCP(1251);
     printGreetingAndInfoCommands();
     RunMedecineService();
 

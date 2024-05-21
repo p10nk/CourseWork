@@ -3,9 +3,11 @@
 
 bool readCabinetsFromFile(std::vector<Cabinet>& cabinets)
 {
-    std::ifstream file("E:/grsu/Курсовая c++/MedecineProject/MedecineProjcet/MedecineProjcet/cabinets.txt");
+    
+    std::ifstream file("E:/grsu/Курсоваяc++/MedecineProject/MedecineProjcet/MedecineProjcet/cabinets.txt");
     if (!file)
     {
+        std::cout << "Не удалось открыть файл с данными о кабинета.\n";
         return false;
     }
     
@@ -83,7 +85,7 @@ bool readCabinetsFromFile(std::vector<Cabinet>& cabinets)
 
 bool writeCabinetsFromFile(std::vector<Cabinet>& cabinets)
 {
-    std::ofstream outFile("E:/grsu/Курсовая c++/MedecineProject/MedecineProjcet/MedecineProjcet/cabinets.txt");
+    std::ofstream outFile("E:/grsu/Курсоваяc++/MedecineProject/MedecineProjcet/MedecineProjcet/cabinets.txt");
     if (!outFile) {
         std::cout << "Не удалось открыть файл для записи." << std::endl;
         return false;

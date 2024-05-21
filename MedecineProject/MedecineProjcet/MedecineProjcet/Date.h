@@ -30,9 +30,6 @@ public:
 	void setHour(unsigned int hour);
 	void setMinutes(unsigned int minutes);
 
-	
-	
-
 	//Вывод даты
 	void printDate();
 	void printDateWithoutHoursAndMinutes();

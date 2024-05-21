@@ -115,9 +115,9 @@ void Patient::printPatient()
 	std::vector<std::string> services; std::string service;
 	std::vector<std::string> deseases; std::string desease;
 	//Чтение всех ID болезней
-	std::ifstream file("E:/grsu/Курсовая c++/MedecineProject/MedecineProjcet/MedecineProjcet/IDdeseases.txt");
-	std::ifstream file1("E:/grsu/Курсовая c++/MedecineProject/MedecineProjcet/MedecineProjcet/IDservices.txt");
-	if (!file.is_open() || !file.is_open()) {
+	std::ifstream file("E:/grsu/Курсоваяc++/MedecineProject/MedecineProjcet/MedecineProjcet/IDdeseases.txt");
+	std::ifstream file1("E:/grsu/Курсоваяc++/MedecineProject/MedecineProjcet/MedecineProjcet/IDservices.txt");
+	if (!file.is_open() || !file1.is_open()) {
 		std::cout << "Не удалось открыть файл для чтения ID." << std::endl;
 	}
 	else {
@@ -152,11 +152,12 @@ void Patient::printPatient()
 		std::cout << "ФИО: " << this->getFname() << " " << this->getLname() << " " << this->getSurname();
 		std::cout << "\nДата рождения: ";  this->dateBirth.printDateWithoutHoursAndMinutes();
 		std::cout << "\nДата записи: ";  this->dateZapis.printDate();
-		std::cout << "\nID Болезни: ";
+		std::cout << "\nКабинет: ";	std::cout<<this->getCabForZapisi();
+		std::cout << "\nБолезни: ";
 		for (const auto& id : this->getidDiseases()) {
 			std::cout << deseases[id-1] << '.';
 		}
-		std::cout << "\nID Услуг: ";
+		std::cout << "\nУслуги: ";
 		for (const auto& id : this->getidServices()) {
 			std::cout << services[id-1] << '.';
 		}

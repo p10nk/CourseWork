@@ -93,9 +93,9 @@ void Cabinet::printCabinet()
 	std::vector<std::string> services; std::string service;
 	std::vector<std::string> deseases; std::string desease;
 	//Чтение всех ID болезней
-	std::ifstream file("E:/grsu/Курсовая c++/MedecineProject/MedecineProjcet/MedecineProjcet/IDdeseases.txt");
-	std::ifstream file1("E:/grsu/Курсовая c++/MedecineProject/MedecineProjcet/MedecineProjcet/IDservices.txt");
-	if (!file.is_open() || !file.is_open()) {
+	std::ifstream file("E:/grsu/Курсоваяc++/MedecineProject/MedecineProjcet/MedecineProjcet/IDdeseases.txt");
+	std::ifstream file1("E:/grsu/Курсоваяc++/MedecineProject/MedecineProjcet/MedecineProjcet/IDservices.txt");
+	if (!file.is_open() || !file1.is_open()) {
 		std::cout << "Не удалось открыть файл для чтения ID." << std::endl;
 	}
 	else {
