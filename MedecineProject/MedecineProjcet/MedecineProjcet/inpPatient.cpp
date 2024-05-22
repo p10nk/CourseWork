@@ -166,8 +166,6 @@ bool addPatient(Patient& patient)
     cin >> cabNum;
   
     cin.ignore(numeric_limits<std::streamsize>::max(), '\n');
-    cout << cabNum<<endl;
-    
     
     if (cin.fail()) {
         cin.clear(); // очистить флаг ошибки
@@ -384,7 +382,7 @@ bool takePatient()
     //Чтение всех ID болезней
     ifstream file("E:/grsu/Курсоваяc++/MedecineProject/MedecineProjcet/MedecineProjcet/IDdeseases.txt");
     if (!file.is_open()) {
-        cout << "Не удалось открыть файл" << endl;
+        cout << "Не удалось открыть файл. ";
         return false;
     }
     vector<string> deseases; string desease;
@@ -412,7 +410,7 @@ bool takePatient()
 
     ifstream file2("E:/grsu/Курсоваяc++/MedecineProject/MedecineProjcet/MedecineProjcet/IDservices.txt");
     if (!file2.is_open()) {
-        cout << "Не удалось открыть файл" << endl;
+        cout << "Не удалось открыть файл. ";
         return false;
     }
     
@@ -457,7 +455,7 @@ bool takePatient()
         cout << "Дата рождения: "; patients[res].getDateBirth().printDateWithoutHoursAndMinutes();
         ifstream file("E:/grsu/Курсоваяc++/MedecineProject/MedecineProjcet/MedecineProjcet/IDdeseases.txt");
         if (!file.is_open()) {
-            cout << "Не удалось открыть файл" << endl;
+            cout << "Не удалось открыть файл. ";
             return false;
         }
         
@@ -465,7 +463,7 @@ bool takePatient()
         int val_ind;
         ifstream file3("E:/grsu/Курсоваяc++/MedecineProject/MedecineProjcet/MedecineProjcet/IDdeseases.txt");
         if (!file.is_open()) {
-            cout << "Не удалось открыть файл" << endl;
+            cout << "Не удалось открыть файл. ";
             return false;
         }
        
@@ -491,15 +489,22 @@ bool takePatient()
         for (size_t i = 0; i < indD.size(); i++) {
             cout << indD[i] <<" - "<< deseases[indD[i]-1]<<endl;
         }
+     
         cout << "Выберите диагно(з/зы) числами в строку: ";
         vector<int> myIDforPatient;
-        string deseasesForPatient; cin>> deseasesForPatient;
+        string deseasesForPatient;
+        
+        cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+        getline(cin,deseasesForPatient);
+        
         if (isNumber(deseasesForPatient)) {
             //std::cout << "yes"<<endl;
             stringstream ss(deseasesForPatient);
             int val;
+    
             while (ss >> val) {
                 myIDforPatient.push_back(val);
+                //cout << val <<" ";
             }
             
             if (isAvalidId(indD[0], indD[indD.size() - 1],
@@ -511,13 +516,13 @@ bool takePatient()
           
             }
             else {
-                cout << "Индекс в недоступном диапазоне. "<<endl;
+                cout << "Индекс в недоступном диапазоне. ";
                 return false;
             }
             
         }
         else {
-            cout << "Введенны не числа. "<<endl;
+            cout << "Введенны не числа. ";
             return false;
         }
         //std::cout << "\n";
@@ -526,7 +531,7 @@ bool takePatient()
         
         ifstream file4("E:/grsu/Курсоваяc++/MedecineProject/MedecineProjcet/MedecineProjcet/IDservices.txt");
         if (!file4.is_open()) {
-            cout << "Не удалось открыть файл" << endl;
+            cout << "Не удалось открыть файл. ";
             return false;
         }
 
@@ -556,7 +561,10 @@ bool takePatient()
 
         cout << "Выберите лечение числами в строку: ";
         myIDforPatient.clear();
-        string servicesForPatient; cin>> servicesForPatient;
+        string servicesForPatient;
+        
+        getline(cin, servicesForPatient);
+        
         if (isNumber(servicesForPatient)) {
             //std::cout << "yes\n";
             stringstream ss(servicesForPatient);
@@ -576,11 +584,12 @@ bool takePatient()
                 cout << "Индекс в недоступном диапазоне. ";
                 return false;
             }
+            cout << "--------------------" << endl;
             patients[res].printPatient();
 
         }
         else {
-            cout << "Введенны не числа. "<<endl;
+            cout << "Введенны не числа. ";
             return false;
         }
 

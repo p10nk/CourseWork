@@ -1,1 +1,5 @@
-﻿  MedecineProjcet.vcxproj -> E:\grsu\Курсоваяc++\MedecineProject\MedecineProjcet\x64\Debug\MedecineProjcet.exe
+﻿  inpPatient.cpp
+E:\grsu\Курсоваяc++\MedecineProject\MedecineProjcet\MedecineProjcet\inpPatient.cpp(448,23): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+E:\grsu\Курсоваяc++\MedecineProject\MedecineProjcet\MedecineProjcet\inpPatient.cpp(511,26): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+E:\grsu\Курсоваяc++\MedecineProject\MedecineProjcet\MedecineProjcet\inpPatient.cpp(577,26): warning C4267: аргумент: преобразование из "size_t" в "int"; возможна потеря данных
+  MedecineProjcet.vcxproj -> E:\grsu\Курсоваяc++\MedecineProject\MedecineProjcet\x64\Debug\MedecineProjcet.exe

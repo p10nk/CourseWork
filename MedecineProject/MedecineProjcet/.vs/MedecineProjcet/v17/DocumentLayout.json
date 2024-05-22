@@ -11,12 +11,12 @@
       "RelativeMoniker": "D:0:0:{8EED263A-FD13-4DAD-A4FB-59DB7370F7BA}|MedecineProjcet\\MedecineProjcet.vcxproj|solutionrelative:MedecineProjcet\\MedecineProjcet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8EED263A-FD13-4DAD-A4FB-59DB7370F7BA}|MedecineProjcet\\MedecineProjcet.vcxproj|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044Fc\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\inpPatient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{8EED263A-FD13-4DAD-A4FB-59DB7370F7BA}|MedecineProjcet\\MedecineProjcet.vcxproj|solutionrelative:MedecineProjcet\\inpPatient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8EED263A-FD13-4DAD-A4FB-59DB7370F7BA}|MedecineProjcet\\MedecineProjcet.vcxproj|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044Fc\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\inpPatient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8EED263A-FD13-4DAD-A4FB-59DB7370F7BA}|MedecineProjcet\\MedecineProjcet.vcxproj|solutionrelative:MedecineProjcet\\inpPatient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8EED263A-FD13-4DAD-A4FB-59DB7370F7BA}|MedecineProjcet\\MedecineProjcet.vcxproj|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044Fc\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\inpPatient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8EED263A-FD13-4DAD-A4FB-59DB7370F7BA}|MedecineProjcet\\MedecineProjcet.vcxproj|solutionrelative:MedecineProjcet\\inpPatient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8EED263A-FD13-4DAD-A4FB-59DB7370F7BA}|MedecineProjcet\\MedecineProjcet.vcxproj|E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044Fc\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\Patient.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -63,20 +63,20 @@
               "RelativeDocumentMoniker": "MedecineProjcet\\MedecineProjcet.cpp",
               "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044Fc\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\MedecineProjcet.cpp",
               "RelativeToolTip": "MedecineProjcet\\MedecineProjcet.cpp",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAowJ0AAAAZAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAIMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-12T19:19:20.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "inpPatient.cpp",
               "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044Fc\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\inpPatient.cpp",
               "RelativeDocumentMoniker": "MedecineProjcet\\inpPatient.cpp",
               "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044Fc\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\inpPatient.cpp",
               "RelativeToolTip": "MedecineProjcet\\inpPatient.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAG0AAAAAAAAA",
+              "ViewState": "AQIAADoCAAAAAAAAAAAAAEoCAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-02T20:59:42.613Z",
               "EditorCaption": ""
@@ -91,8 +91,7 @@
               "RelativeToolTip": "MedecineProjcet\\Patient.cpp",
               "ViewState": "AQIAADkAAAAAAAAAAAAWwGUAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-15T20:23:08.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T20:23:08.403Z"
             },
             {
               "$type": "Document",
@@ -102,7 +101,7 @@
               "RelativeDocumentMoniker": "MedecineProjcet\\writeAndReadPatientDataFile.cpp",
               "ToolTip": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044Fc\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\writeAndReadPatientDataFile.cpp",
               "RelativeToolTip": "MedecineProjcet\\writeAndReadPatientDataFile.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "ViewState": "AQIAADYAAAAAAAAAAAAhwCYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-19T21:42:49.487Z",
               "EditorCaption": ""
@@ -133,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "inpPatient.h",
               "DocumentMoniker": "E:\\grsu\\\u041A\u0443\u0440\u0441\u043E\u0432\u0430\u044Fc\u002B\u002B\\MedecineProject\\MedecineProjcet\\MedecineProjcet\\inpPatient.h",
               "RelativeDocumentMoniker": "MedecineProjcet\\inpPatient.h",
@@ -141,8 +140,7 @@
               "RelativeToolTip": "MedecineProjcet\\inpPatient.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-15T19:40:13.458Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-15T19:40:13.458Z"
             },
             {
               "$type": "Document",
@@ -154,8 +152,7 @@
               "RelativeToolTip": "MedecineProjcet\\Date.cpp",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-19T21:30:32.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T21:30:32.05Z"
             },
             {
               "$type": "Document",
@@ -167,8 +164,7 @@
               "RelativeToolTip": "MedecineProjcet\\writeAndReadCabinetDataFile.cpp",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-19T21:30:46.099Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-19T21:30:46.099Z"
             },
             {
               "$type": "Document",
